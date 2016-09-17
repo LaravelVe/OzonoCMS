@@ -30,7 +30,7 @@ En esta sección se definen las convenciones de como contribuir en el tema, desd
 Esta sección esta sujeta a modificaciones y actualizaciones bajo previo concenso y aprobación por parte de la comunidad usando **Issues** y/o Canal Oficial en [**Telegram**](https://telegram.me/laravelVe)
 
 - [Código.](#código)
-- [Documentación.](#codumentación)
+- [Documentación.](#documentación)
 - [Commits.](#commits)
 - [Issues](#issues)
 - [Pull Requests.](#pull-requests)
