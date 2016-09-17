@@ -16,7 +16,7 @@ Ozono CMS es un proyecto que nace en la comunidad LaravelVe con fines didacticos
 
 [Volver](#indice)
 
-### Preparando del Entorno
+### Preparando el Entorno
 
 Al ser un proyecto basado en el framework Laravel y siguiendo la documentación oficial el mejor entorno para desarrollar proyectos basados en Laravel es usando [**Laravel Homestead**](https://laravel.com/docs/5.3/homestead) un entorno de desarrollo basado en una Vagrant Box con todas las herramientas necesarias, ahorandole configuraciones y descargas de software adicional. Cabe destacar, que esta no es una limitante, debido a que usted puede usar Laravel sin **Homestead** al cumplir con los siguientes [requerimientos](https://laravel.com/docs/5.3/installation#installing-laravel).
 
@@ -29,11 +29,11 @@ En esta sección se definen las convenciones de como contribuir en el tema, desd
 
 Esta sección esta sujeta a modificaciones y actualizaciones bajo previo concenso y aprobación por parte de la comunidad usando **Issues** y/o Canal Oficial en [**Telegram**](https://telegram.me/laravelVe)
 
-- [Código.](#codigo)
-- [Documentación.](#codumentacion)
+- [Código.](#código)
+- [Documentación.](#codumentación)
 - [Commits.](#commits)
 - [Issues](#issues)
-- [Pull Requests.](#pull-request)
+- [Pull Requests.](#pull-requests)
 - [Merge.](#merge)
 
 #### Código
