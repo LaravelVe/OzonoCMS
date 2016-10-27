@@ -62,6 +62,26 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .js-cookie-consent.cookie-consent {
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+                width: 100%;
+                background-color: #f0f2f1;
+            }
+            span.cookie-consent__message {
+                color: #1F1F21;
+            }
+            button.js-cookie-consent-agree {
+                border: none;
+                border-radius: 3px;
+                background: #f4645f;
+                padding: 10px 15px;
+                font-size: 16px;
+                color: #fff;
+            }
         </style>
     </head>
     <body>
