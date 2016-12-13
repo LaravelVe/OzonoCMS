@@ -7,24 +7,3 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
-.js-cookie-consent.cookie-consent {
-	position: fixed;
-	bottom: 0;
-	margin: 0;
-	padding: 20px;
-	text-align: center;
-	width: 100%;
-	background-color:$color_1;
-}
-span.cookie-consent__message {
-	color: $color_1;
-}
-button.js-cookie-consent-agree {
-	border: none;
-	border-radius: 3px;
-	background: $color_3;
-	padding: 10px 15px;
-	font-size: 16px;
-	color: $color_2;
-}
