@@ -4,7 +4,6 @@
 
 ```php
 
-php artisan db:seed --class=RoleTableSeeder
-php artisan db:seed --class=PermissionTableSeeder
-php artisan db:seed --class=UsersTableSeeder
+php artisan migrate --seed
+
 ```
