@@ -27,8 +27,8 @@ class UsersTableSeeder extends Seeder
             ],
         ];
 
-        foreach ($users as $key => $value) {
-        	User::create($value);
+        foreach ($users as $user) {
+        	User::create($user);
         }
 
         // add owner role
