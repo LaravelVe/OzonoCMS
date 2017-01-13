@@ -62,14 +62,38 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .js-cookie-consent.cookie-consent {
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+                width: 100%;
+                background-color: #f0f2f1;
+            }
+            span.cookie-consent__message {
+                color: #1F1F21;
+            }
+            button.js-cookie-consent-agree {
+                border: none;
+                border-radius: 3px;
+                background: #f4645f;
+                padding: 10px 15px;
+                font-size: 16px;
+                color: #fff;
+            }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
+                    @if (Auth::guest())
+                        <a href="{{ url('/login') }}">Login</a>
+                        <a href="{{ url('/register') }}">Register</a>
+                    @else
+                        <a href="{{ url('/home') }}">{{ Auth::user()->name }}</a>
+                    @endif
                 </div>
             @endif
 
